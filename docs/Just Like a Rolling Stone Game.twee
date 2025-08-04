@@ -1,0 +1,146 @@
+:: StoryTitle
+Just Like a Rolling Stone Game
+
+
+:: StoryData
+{
+  "ifid": "1FA3789A-F93E-41C0-8E21-17C4D2852C17",
+  "format": "Harlowe",
+  "format-version": "3.3.9",
+  "start": "Enter The Game",
+  "zoom": 1
+}
+
+
+:: Carlos {"position":"1350,800","size":"100,100"}
+<a href="https://www.linkedin.com/in/carlos-sousa-233335317/" target="blank" >Carlos Sousa - Linkedin</a>
+
+I worked as a programmer with more or less 18 years of experience in software development.
+I understand that we, in the IT area, are more than machines!
+
+Therefore, I have focused on the following items:
+
+''Spirituality, Respect''
+- God exists
+- I respect life
+- I do care
+
+''Trust''
+- Name of my partner
+
+''Teamwork, partnership''
+- We are a team!
+
+''Organization, rhythm, musicality, ethics''
+- Just listen to this here
+- Everything in its place
+- Things in my time
+
+''Changes, challenges, adaptability''
+- For me it's fine!
+- Different from whatever.
+
+''Effort, fun, freedom''
+- Good when you don't need it
+- Better when I like it
+- I don't need a reason
+- You have to want it!
+
+''Simplicity''
+- Yes!
+- That simple.
+
+
+:: ENTER THE GAME {"position":"1225,675","size":"100,100"}
+{
+<p>Hi!
+<br/>What day is today?
+<br/>I  mean, which year?
+<br/>...?
+<br/>Anyway.
+<br/>Let me tell you something...
+<br/>You are here in memory of [[Carlos]].
+<br/>The crypto-software-engineering, The unknown memory.
+<br/>THe Game Master, The key to unlock the... It Rocks!
+<br/>
+<br/>All you need to know for now is...
+<br/>To pay attention and choose the right songs to unlock his Memories of Rock.
+<br/>But be Warn... first, there's [[some Terms of Rock!]]
+</p>
+}
+
+
+:: Enter The Game {"position":"1225,550","size":"100,100"}
+{
+<h1 class='txt-center'>Just Like a Rolling Stone</h1>
+<p class='txt-center'>With no direction home
+<br>A complete unknown
+<br>Just like a Rolling Stone
+<br>
+</p>
+<p class='txt-center'>[[ENTER THE GAME]]</p>
+
+<audio controls autoplay loop hidden>
+    <source src="https://ch-112-sousa.github.io/just-like-a-rolling-stone/assets/with-no-direction-home-a-complete-unknown-just-like-a-rolling-stone.mp3" type="audio/mpeg">
+</audio>
+}
+
+
+
+
+:: I agree {"position":"1350,1050","size":"100,100"}
+Ok, I agreed now...
+
+HIT IT!
+
+
+
+
+
+
+
+:: I wanna rock with you all night {"position":"975,875","size":"100,100"}
+{
+<h1>Sorry, no fake ID, no Gaming!
+<br/>RIP with Michael Jackson, KING OF POP.
+</h1>
+}
+<audio controls autoplay>
+	  <source src="https://ch-112-sousa.github.io/just-like-a-rolling-stone/assets/i-wanna-rock-with-you-all-night.mp3" type="audio/mpeg">
+</audio>
+
+Try Again!
+
+[[ENTER THE GAME]] 
+
+
+:: TERMS {"position":"1225,925","size":"100,100"}
+{
+<h1>The TERMS are:</h1>
+}
+If you are under 18, You won't be doing any time!
+
+<audio controls autoplay>
+	  <source src="https://ch-112-sousa.github.io/just-like-a-rolling-stone/assets/if-you-are-under-18-you-won't-be-doing-any-time.mp3" type="audio/mpeg">
+</audio>
+
+I don´t have 18 yet but [[I wanna rock with you all night]]
+[[I agree]] with the TERMS!
+
+
+:: some Terms of Rock! {"position":"1225,800","size":"100,100"}
+Don't you know what you are doing?
+<audio controls autoplay>
+	  <source src="https://ch-112-sousa.github.io/just-like-a-rolling-stone/assets/dont-you-know-what-you-are-doing.mp3" type="audio/mpeg">
+</audio>
+
+Sure, show me the [[TERMS]]!
+
+
+
+
+:: StoryStylesheet [stylesheet]
+.txt-center
+{
+   text-align: center;
+}
