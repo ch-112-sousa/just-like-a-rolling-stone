@@ -12,6 +12,78 @@ Just Like a Rolling Stone Game
 }
 
 
+:: 1a - Sell your soul and sign an autograph {"position":"1475,1050","size":"100,100"}
+{
+</br><h1>That's Correct!</h1>
+<br/>Sell your soul and sign an autograph! Big Bang Baby it's a crash crash crash!
+<br/>
+<audio controls autoplay>
+    <source src="https://ch-112-sousa.github.io/just-like-a-rolling-stone/assets/sell-your-soul-and-sign-an-autograph-big-bang-baby-its-a-crash-crash-crash.mp3" type="audio/mpeg">
+</audio>
+<br>
+<h2>
+Big Bang Baby, from Stone Temple Pilots
+</h2>
+</br>You understood well the TERMS!
+</br>I mean Rock and Roll!
+
+<br/>We can now [[proceed to the game]].
+}
+
+
+
+:: 1b - Go go go where you want {"position":"1025,1175","size":"100,100"}
+Yeah... 
+Go go go where you want 
+but don't leave me here forever.
+<audio controls autoplay>
+	  <source src="https://ch-112-sousa.github.io/just-like-a-rolling-stone/assets/go-go-go-where-you-want-but-dont-leave-me-here-forever.mp3" type="audio/mpeg">
+</audio>
+
+Too POP to be true
+Michael!
+MacCartney!
+<h2>Try Again!</h2>
+
+[[ENTER THE GAME]] 
+
+
+:: 2a. Your soul is gonna burn in a Lake of Fire! {"position":"1575,1325","size":"100,100"}
+{
+<h1>Yes!</h1>
+
+<h4>You wanna know the truth, son... Oh I'll tell you the truth! Your soul is gonna burn in a lake of fire</h4>
+
+<br/>
+<audio controls autoplay>
+	  <source src="https://ch-112-sousa.github.io/just-like-a-rolling-stone/assets/you-wanna-know-the-truth-son-oh-i-ll-tell-you-the-truth-your-soul-is-gonna-burn-in-a-lake-of-fire.mp3" type="audio/mpeg">
+</audio>
+}
+
+
+:: 2b. ooh ohh ohh ohh ohh ohh {"position":"1750,1325","size":"100,100"}
+{
+<h2>Lucky wrong answer, but the song was about madness.</h2>
+
+<audio controls autoplay>
+	  <source src="https://ch-112-sousa.github.io/just-like-a-rolling-stone/assets/ooh-ohh-ohh-ohh-ohh-ohh.mp3" type="audio/mpeg">
+</audio>
+
+}
+
+
+:: 2c. SOLO: smoke on the water cover of the original of the cover {"position":"1400,1325","size":"100,100"}
+{
+<h3>Wrong answer, copyright of Carlos Lyra song, Maria Moita</h3>
+<br/>
+<p>Things Not Always As They Seem</p>
+<br/>
+<audio controls autoplay>
+	  <source src="https://ch-112-sousa.github.io/just-like-a-rolling-stone/assets/smoke-on-the-water-cover-of-the-original-of-the-cover.mp3" type="audio/mpeg">
+</audio>
+}
+
+
 :: Carlos {"position":"1350,800","size":"100,100"}
 <a href="https://www.linkedin.com/in/carlos-sousa-233335317/" target="blank" >Carlos Sousa - Linkedin</a>
 
@@ -79,21 +151,26 @@ Therefore, I have focused on the following items:
 <br>
 </p>
 <p class='txt-center'>[[ENTER THE GAME]]</p>
-
+<br/>
 <audio controls autoplay loop hidden>
-    <source src="https://ch-112-sousa.github.io/just-like-a-rolling-stone/assets/with-no-direction-home-a-complete-unknown-just-like-a-rolling-stone.mp3" type="audio/mpeg">
+    	  <source src="/just-like-a-rolling-stone/assets/sell-your-soul-and-sign-an-autograph-big-bang-baby-its-a-crash-crash-crash.mp3" type="audio/mpeg">
 </audio>
 }
 
 
 
 
-:: I agree {"position":"1350,1050","size":"100,100"}
+:: I agree {"position":"1225,1125","size":"100,100"}
 Ok, I agreed now...
-
-HIT IT!
-
-
+{
+<h1>HIT IT!</h1>
+ <br/>
+<br/>
+<br/><h3>1. Does any body knows How the story really goes... ?<h3/>
+<br/>[[1a - Sell your soul and sign an autograph]] Big Bang Baby it's a crash, crash, crash!
+<br/>
+<br/>[[1b - Go go go where you want]]
+}
 
 
 
@@ -101,9 +178,9 @@ HIT IT!
 
 :: I wanna rock with you all night {"position":"975,875","size":"100,100"}
 {
-<h1>Sorry, no fake ID, no Gaming!
+<h2>Sorry, no fake ID, no Gaming!
 <br/>RIP with Michael Jackson, KING OF POP.
-</h1>
+</h2>
 }
 <audio controls autoplay>
 	  <source src="https://ch-112-sousa.github.io/just-like-a-rolling-stone/assets/i-wanna-rock-with-you-all-night.mp3" type="audio/mpeg">
@@ -126,6 +203,19 @@ If you are under 18, You won't be doing any time!
 
 I don´t have 18 yet but [[I wanna rock with you all night]]
 [[I agree]] with the TERMS!
+
+
+:: proceed to the game {"position":"1475,1175","size":"100,100"}
+{
+<h3>2. Wanna know the truth, son? Oh, I'll tell you the truth...</h3>
+<br/>
+<h5>
+<br/>[[2a. Your soul is gonna burn in a Lake of Fire!]]
+<br/>[[2b. ooh ohh ohh ohh ohh ohh]]
+<br/>[[2c. SOLO: smoke on the water cover of the original of the cover]]
+<br/>
+</h5>
+}
 
 
 :: some Terms of Rock! {"position":"1225,800","size":"100,100"}
