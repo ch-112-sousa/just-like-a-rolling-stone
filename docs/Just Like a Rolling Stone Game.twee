@@ -12,7 +12,7 @@ Just Like a Rolling Stone Game
 }
 
 
-:: 1a - Sell your soul and sign an autograph {"position":"1475,1050","size":"100,100"}
+:: 1a - Sell your soul and sign an autograph {"position":"1475,1000","size":"100,100"}
 {
 </br><h1>That's Correct!</h1>
 <br/>Sell your soul and sign an autograph! Big Bang Baby it's a crash crash crash!
@@ -58,6 +58,17 @@ MacCartney!
 <audio controls autoplay>
 	  <source src="https://ch-112-sousa.github.io/just-like-a-rolling-stone/assets/you-wanna-know-the-truth-son-oh-i-ll-tell-you-the-truth-your-soul-is-gonna-burn-in-a-lake-of-fire.mp3" type="audio/mpeg">
 </audio>
+
+<h2>
+Iron Maiden! Can I play with madness!
+</h2>
+
+<br/>Remember, You already sold your soul and signed an autograph.
+<br/>That's madness!
+<br/>
+
+<br/>Let's proceed to next question...
+<br/>[[what do you wanna do with your life?]]
 }
 
 
@@ -68,11 +79,13 @@ MacCartney!
 <audio controls autoplay>
 	  <source src="https://ch-112-sousa.github.io/just-like-a-rolling-stone/assets/ooh-ohh-ohh-ohh-ohh-ohh.mp3" type="audio/mpeg">
 </audio>
-
+<br/>
+<br/>Let's proceed to next question...
+<br/>[[what do you wanna do with your life?]]
 }
 
 
-:: 2c. SOLO: smoke on the water cover of the original of the cover {"position":"1400,1325","size":"100,100"}
+:: 2c. SOLO: smoke on the water cover of the original of the cover {"position":"1350,1350","size":"100,100"}
 {
 <h3>Wrong answer, copyright of Carlos Lyra song, Maria Moita</h3>
 <br/>
@@ -81,6 +94,10 @@ MacCartney!
 <audio controls autoplay>
 	  <source src="https://ch-112-sousa.github.io/just-like-a-rolling-stone/assets/smoke-on-the-water-cover-of-the-original-of-the-cover.mp3" type="audio/mpeg">
 </audio>
+
+<br/>
+<br/>Let's proceed to next question...
+<br/>[[what do you wanna do with your life?]]
 }
 
 
@@ -176,6 +193,21 @@ Ok, I agreed now...
 
 
 
+:: I wanna rock {"position":"1500,1625","size":"100,100"}
+{
+<h5>I wanna rock! rock!</h5>
+<br/>
+<audio controls autoplay>
+	  <source src="https://ch-112-sousa.github.io/just-like-a-rolling-stone/assets/i-wanna-rock-rock.mp3" type="audio/mpeg">
+</audio>
+
+<h2>Say it again, LOUDER!</h2>
+
+
+[[I wanna rock, rock! I want to rock! rock! I want to rock!]]
+}
+
+
 :: I wanna rock with you all night {"position":"975,875","size":"100,100"}
 {
 <h2>Sorry, no fake ID, no Gaming!
@@ -189,6 +221,47 @@ Ok, I agreed now...
 Try Again!
 
 [[ENTER THE GAME]] 
+
+
+:: I wanna rock, rock! I want to rock! rock! I want to rock! {"position":"1675,1625","size":"100,100"}
+{
+<h3>I wanna rock, rock! I want to rock! rock! I want to rock!</h3>
+<br/>
+<audio controls autoplay>
+	  <source src="https://ch-112-sousa.github.io/just-like-a-rolling-stone/assets/i-wanna-rock-rock-i-want-to-rock-rock-i-want-to-rock.mp3" type="audio/mpeg">
+</audio>
+
+<h4>Twisted Sisters, song I wanna rock!
+
+
+<br/>Yeah! I knew it!
+<br/>
+<br/>I must tell you something...
+</h4>
+<br/>
+<h1>
+<br/>[[I, I've been waiting here to be your guide]]
+</h1> 
+}
+
+
+
+
+:: I, I've been waiting here to be your guide {"position":"1675,1750","size":"100,100"}
+{
+
+<h2>
+<br/>I, I've been waiting here to be your guide!
+<br/>So come, reveal the secrets that you keep inside...
+<br/>Step up!
+</h2>
+
+<br/>
+<audio controls autoplay>
+	  <source src="https://ch-112-sousa.github.io/just-like-a-rolling-stone/assets/i-i-ve-been-waiting-here-to-be-your-guide-so-come-reveal-the-secrets-that-you-keep-inside.mp3" type="audio/mpeg">
+</audio>
+
+}
 
 
 :: TERMS {"position":"1225,925","size":"100,100"}
@@ -225,6 +298,16 @@ Don't you know what you are doing?
 </audio>
 
 Sure, show me the [[TERMS]]!
+
+
+
+
+:: what do you wanna do with your life? {"position":"1575,1450","size":"100,100"}
+{
+<h1>What do you wanna do with your life?</h1>
+<br/>[[I wanna rock]], rock!
+<br/>[[I wanna rock, rock! I want to rock! rock! I want to rock!]]
+}
 
 
 
