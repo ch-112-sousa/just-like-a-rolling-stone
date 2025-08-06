@@ -247,6 +247,23 @@ Try Again!
 
 
 
+:: I want them to know it's me... {"position":"1700,1900","size":"100,100"}
+
+{
+<h1>
+<br/>I want them to know it's me
+<br/>It's on my head
+<br/>I'll point the finger at me
+<br/>It's on my head
+</h1>
+
+<audio controls autoplay>
+	  <source src="https://ch-112-sousa.github.io/just-like-a-rolling-stone/assets/i-want-them-to-know-its-me-its-on-my-head-i-ll-point-the-finget-at-me-its-on-my-head.mp3" type="audio/mpeg">
+</audio>
+
+}
+
+
 :: I, I've been waiting here to be your guide {"position":"1675,1750","size":"100,100"}
 {
 
@@ -261,7 +278,16 @@ Try Again!
 	  <source src="https://ch-112-sousa.github.io/just-like-a-rolling-stone/assets/i-i-ve-been-waiting-here-to-be-your-guide-so-come-reveal-the-secrets-that-you-keep-inside.mp3" type="audio/mpeg">
 </audio>
 
+
+<br/>[[I want them to know it's me...]]
+<br/>[[Take a look into my eyes...]]
+<br/>
+
 }
+
+
+
+
 
 
 :: TERMS {"position":"1225,925","size":"100,100"}
@@ -276,6 +302,23 @@ If you are under 18, You won't be doing any time!
 
 I don´t have 18 yet but [[I wanna rock with you all night]]
 [[I agree]] with the TERMS!
+
+
+:: Take a look into my eyes... {"position":"1500,1900","size":"100,100"}
+{
+<h2>
+<br/>Take a look into my Eyes
+<br/>Oh when I look at you!
+<br/>Take a look into my Eyes
+<br/>Tell me is it me?
+<br/>Is it really me?
+</h2>
+}
+
+<br/>
+<audio controls autoplay>
+	  <source src="https://ch-112-sousa.github.io/just-like-a-rolling-stone/assets/take-a-look-into-my-eyes-oh-when-i-look-at-you-take-a-look-into-my-eyes-tell-me-is-it-me-is-it-really-me.mp3" type="audio/mpeg">
+</audio>
 
 
 :: proceed to the game {"position":"1475,1175","size":"100,100"}
