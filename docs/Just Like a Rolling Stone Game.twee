@@ -8,11 +8,15 @@ Just Like a Rolling Stone Game
   "format": "Harlowe",
   "format-version": "3.3.9",
   "start": "Enter The Game",
+  "tag-colors": {
+    "header": "blue",
+    "footer": "purple"
+  },
   "zoom": 1
 }
 
 
-:: 1a - Sell your soul and sign an autograph {"position":"1500,1000","size":"100,100"}
+:: 1a - Sell your soul and sign an autograph {"position":"1350,825","size":"100,100"}
 {
 </br><h1>That's Correct!</h1>
 <br/>Sell your soul and sign an autograph! Big Bang Baby it's a crash crash crash!
@@ -31,8 +35,7 @@ Big Bang Baby, from Stone Temple Pilots
 }
 
 
-
-:: 1b - Go go go where you want {"position":"1000,1200","size":"100,100"}
+:: 1b - Go go go where you want {"position":"1000,1050","size":"100,100"}
 Yeah... 
 Go go go where you want 
 but don't leave me here forever.
@@ -45,10 +48,10 @@ Michael!
 MacCartney!
 <h2>Try Again!</h2>
 
-[[ENTER THE GAME]] 
+[[ENTER THE GAME]]
 
 
-:: 2a. Your soul is gonna burn in a Lake of Fire! {"position":"1600,1400","size":"100,100"}
+:: 2a. Your soul is gonna burn in a Lake of Fire! {"position":"1550,1000","size":"100,100"}
 {
 <h1>Yes!</h1>
 
@@ -72,7 +75,7 @@ Iron Maiden! Can I play with madness!
 }
 
 
-:: 2b. ooh ohh ohh ohh ohh ohh {"position":"1800,1300","size":"100,100"}
+:: 2b. ooh ohh ohh ohh ohh ohh {"position":"1700,925","size":"100,100"}
 {
 <h2>Lucky wrong answer, but the song was about madness.</h2>
 
@@ -85,7 +88,7 @@ Iron Maiden! Can I play with madness!
 }
 
 
-:: 2c. SOLO: smoke on the water cover of the original of the cover {"position":"1350,1350","size":"100,100"}
+:: 2c. SOLO: smoke on the water cover of the original of the cover {"position":"1375,1000","size":"100,100"}
 {
 <h3>Wrong answer, copyright of Carlos Lyra song, Maria Moita</h3>
 <br/>
@@ -139,7 +142,7 @@ Therefore, I have focused on the following items:
 - That simple.
 
 
-:: ENTER THE GAME {"position":"1200,600","size":"100,100"}
+:: ENTER THE GAME {"position":"1200,700","size":"100,100"}
 {
 <p>Hi!
 <br/>What day is today?
@@ -158,7 +161,7 @@ Therefore, I have focused on the following items:
 }
 
 
-:: Enter The Game {"position":"1000,500","size":"100,100"}
+:: Enter The Game {"position":"925,700","size":"100,100"}
 {
 <h1 class='txt-center'>Just Like a Rolling Stone</h1>
 <p class='txt-center'>With no direction home
@@ -174,29 +177,55 @@ Therefore, I have focused on the following items:
 }
 
 
+:: Header [header] {"position":"1325,1825","size":"100,100"}
+(if: $showPlayerSheet > 0 )[
+Time Traveller
+---
+Objective: $objective
+Health: $health%
+Ressonance: $ressonance
+Popularity: $popularity
+Inventory: $inventory
+  ---
+]
 
 
-:: I agree {"position":"1200,1200","size":"100,100"}
+
+
+
+:: I agree {"position":"1200,1150","size":"100,100"}
 Ok, I agreed now...
 {
 <h1>HIT IT!</h1>
  <br/>
+ <audio controls autoplay>
+	  <source src="https://ch-112-sousa.github.io/just-like-a-rolling-stone/assets/hit-it.mp3" type="audio/mpeg">
+</audio>
 <br/>
 <br/><h3>1. Does any body knows How the story really goes... ?<h3/>
-<br/>[[1a - Sell your soul and sign an autograph]] Big Bang Baby it's a crash, crash, crash!
+<br/>[[1a - Sell your soul and sign an autograph]]. Big Bang Baby it's a crash, crash, crash!
 <br/>
 <br/>[[1b - Go go go where you want]]
 }
 
 
+:: I looked for something new... {"position":"1550,1775","size":"100,100"}
+{
+<h5><br>Late at night, you searched in your laptop for more information about time travelling.
+<br>Learned about Thomas Anderson, Jason Bourne and Evan Treborn.
+<br>You received a text message...
+<br>But begun to sleep.
+</h5>
+<br>
+<br>Light a candle for the sinners
+<br>Set the world on fire
+<audio controls autoplay>
+	  <source src="https://ch-112-sousa.github.io/just-like-a-rolling-stone/assets/light-a-candle-for-the-sinners-set-the-world-on-fire.mp3" type="audio/mpeg">
+</audio>
+}
 
 
-
-:: I remember... {"position":"2825,2350","size":"100,100"}
-
-
-
-:: I wanna rock {"position":"1400,1700","size":"100,100"}
+:: I wanna rock {"position":"1325,1300","size":"100,100"}
 {
 <h5>I wanna rock! rock!</h5>
 <br/>
@@ -211,7 +240,7 @@ Ok, I agreed now...
 }
 
 
-:: I wanna rock with you all night {"position":"1000,900","size":"100,100"}
+:: I wanna rock with you all night {"position":"1000,850","size":"100,100"}
 {
 <h2>Sorry, no fake ID, no Gaming!
 <br/>RIP with Michael Jackson, KING OF POP.
@@ -223,10 +252,10 @@ Ok, I agreed now...
 
 Try Again!
 
-[[ENTER THE GAME]] 
+[[ENTER THE GAME]]
 
 
-:: I wanna rock, rock! I want to rock! rock! I want to rock! {"position":"1800,1600","size":"100,100"}
+:: I wanna rock, rock! I want to rock! rock! I want to rock! {"position":"1700,1075","size":"100,100"}
 {
 <h3>I wanna rock, rock! I want to rock! rock! I want to rock!</h3>
 <br/>
@@ -248,9 +277,7 @@ Try Again!
 }
 
 
-
-
-:: I want them to know it's me... {"position":"1900,2000","size":"100,100"}
+:: I want them to know it's me... {"position":"1900,1075","size":"100,100"}
 {
 <h1>
 <br>I want them to know it's me
@@ -266,7 +293,7 @@ Try Again!
 }
 
 
-:: I, I've been waiting here to be your guide {"position":"1800,1800","size":"100,100"}
+:: I, I've been waiting here to be your guide {"position":"1850,800","size":"100,100"}
 {
 <h2>
 <br/>I, I've been waiting here to be your guide!
@@ -285,13 +312,11 @@ Try Again!
 <br/>
 <br/>
 <br/>
-<br/> So let's started from the beginning... <h2>[[Is it bright where you are?]]</h2>
+<h2>Now you are able for <b>[[the regression]]</b>!</h2>
 }
 
 
-
-
-:: Is it bright where you are? {"position":"1800,2175","size":"100,100"}
+:: Is it bright where you are? {"position":"1550,1600","size":"100,100"}
 {
 <h1><b>The End is The </br> Beginning is The </br> End</b></h1>
 <h4>from</h4><h2> Smashing Pumpkings!</h2>
@@ -307,10 +332,34 @@ Try Again!
 	  <source src="https://ch-112-sousa.github.io/just-like-a-rolling-stone/assets/and-in-your-darkest-hour-i-hold-secrets-flame-you-can-watch-the-world-devoured-in-its-pain-strange-strange.mp3" type="audio/mpeg">
 </audio>
 
+<br>
+<h3>[[We start from here]]<h3>
 
-
-<h2>Now you are able for <b>[[the regression]]</b>!</h2>
 }
+
+(set: $showPlayerSheet to 1)
+(set: $objective to "-")
+(set: $health to 100)
+(set: $ressonance to 0)
+(set: $popularity to 0)
+(set: $inventory to "-"])
+
+
+:: So, wake up! {"position":"1700,1500","size":"100,100"}
+{
+<br>it's not about love, really, it's about..
+<br><h1>rock and roll</h1>
+<br>
+<audio controls autoplay>
+	  <source src="https://ch-112-sousa.github.io/just-like-a-rolling-stone/assets/with-no-direction-home-a-complete-unknown-just-like-a-rolling-stone.mp3" type="audio/mpeg">
+</audio>
+<br>[[Is it bright where you are?]]
+<br>Or if you fail to understand, [[you could quit the game]].
+<br>
+
+}
+(set: $showPlayerSheet to 0)
+
 
 
 :: TERMS {"position":"1200,1000","size":"100,100"}
@@ -327,7 +376,7 @@ I don´t have 18 yet but [[I wanna rock with you all night]]
 [[I agree]] with the TERMS!
 
 
-:: Take a look into my eyes... {"position":"1700,2000","size":"100,100"}
+:: Take a look into my eyes... {"position":"2025,1075","size":"100,100"}
 {
 <h2>
 <br/>Take a look into my Eyes
@@ -344,7 +393,28 @@ I don´t have 18 yet but [[I wanna rock with you all night]]
 </audio>
 
 
-:: proceed to the game {"position":"1500,1200","size":"100,100"}
+:: We start from here {"position":"1300,1675","size":"100,100"}
+{
+<h5>
+<br>You came from the future...
+<br>Your musical knowledge is inspiring and is always improving
+<br>You learned time travel can be achieved through timeless songs
+<br>As you already realized, the key thing is to sound
+<br>This ressonance connect us.
+</h5>
+<br>
+<audio controls autoplay>
+	  <source src="https://ch-112-sousa.github.io/just-like-a-rolling-stone/assets/many-times-i-ve-been-a-traveler.mp3" type="audio/mpeg">
+</audio>
+<br>
+<h3><br>Many times I've been a traveller
+<br>[[I looked for something new...]]
+</h3>
+}
+
+
+
+:: proceed to the game {"position":"1500,825","size":"100,100"}
 {
 <h3>2. Wanna know the truth, son? Oh, I'll tell you the truth...</h3>
 <br/>
@@ -357,7 +427,7 @@ I don´t have 18 yet but [[I wanna rock with you all night]]
 }
 
 
-:: some Terms of Rock! {"position":"1200,800","size":"100,100"}
+:: some Terms of Rock! {"position":"1200,850","size":"100,100"}
 Don't you know what you are doing?
 <audio controls autoplay>
 	  <source src="https://ch-112-sousa.github.io/just-like-a-rolling-stone/assets/dont-you-know-what-you-are-doing.mp3" type="audio/mpeg">
@@ -366,9 +436,7 @@ Don't you know what you are doing?
 Sure, show me the [[TERMS]]!
 
 
-
-
-:: the regression {"position":"2025,2300","size":"100,100"}
+:: the regression {"position":"2175,1175","size":"100,100"}
 {focus on this light
 <br>as it flows through your body
 <br>allow yourself to drift off 
@@ -387,9 +455,7 @@ Sure, show me the [[TERMS]]!
 }
 
 
-
-
-:: what do you wanna do with your life? {"position":"1600,1600","size":"100,100"}
+:: what do you wanna do with your life? {"position":"1450,1150","size":"100,100"}
 {
 <h1>What do you wanna do with your life?</h1>
 <br/>[[I wanna rock]], rock!
@@ -397,9 +463,20 @@ Sure, show me the [[TERMS]]!
 }
 
 
+:: you could quit the game {"position":"1875,1550","size":"100,100"}
+{
+<br><h4>Too legit, to legit to quit...<h4>
+<br>
+<audio controls autoplay>
+     <source src="https://ch-112-sousa.github.io/just-like-a-rolling-stone/assets/too-legit,-too-legit-to-quit,too-legit,too-legit-to-quit.mp3" type="audio/mpeg">
+</audio>
+
+<br>GAME IS OVER!
+<br>you quit the game.
+}
 
 
-:: zzZZZZZZZZZZZZZZZZZZZZZZZZZZZZ {"position":"2025,2550","size":"100,100"}
+:: zzZZZZZZZZZZZZZZZZZZZZZZZZZZZZ {"position":"1800,1350","size":"100,100"}
 {
 ZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
 }
@@ -411,7 +488,9 @@ ZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
 [[zzzzzz I remember...]]
 
 
-:: zzzzzz I remember... {"position":"2150,2675","size":"100,100"}
+:: zzzzzz I remember... {"position":"1450,1475","size":"100,100"}
+(set: $exibirFicha to 0)
+
 {
 <br>I remember the first time she came to me
 <br>She poured out her soul all night and cried
@@ -423,10 +502,15 @@ ZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
 <audio controls autoplay>
 	  <source src="https://ch-112-sousa.github.io/just-like-a-rolling-stone/assets/i-remember-the-first-time-she-came-to-me-she-poured-out-her-soul-all-night-and-cried-i-remember-i-was-told-theres-a-new-love-thats-born-for-each-one-that-has-died.mp3" type="audio/mpeg">
 </audio>
+
+<br>
+<br><h1>[[So, wake up!]]<h1>
+
+
 }
 
 
-:: zzzzzzzz {"position":"2025,2425","size":"100,100"}
+:: zzzzzzzz {"position":"1950,1400","size":"100,100"}
 {
 ZzzzzzzzzZZzzzzzZZzzzzzz
 }
