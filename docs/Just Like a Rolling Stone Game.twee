@@ -95,33 +95,34 @@ Just Like a Rolling Stone Game
 
 
 :: Avoid the Butterfly Effect {"position":"825,1300","size":"100,100"}
-{
-<div class="div-red">
-When you get to heaven
+{<p>Everything is real.
+<br>You can feel the pain.
+<br>Feels like...
+<br>What is happening to me?</p>
+<br><h4>Actions</h4>
+---
+<br>[[Try to resist]]
+<br>[[Give in to live this lie]]
+<br><br>
+---
+<br>Butterfly Effect
+---
+<div class="div-red">When you get to heaven
 <br>You will wish you're in hell
 <br>When will you realize you're already here?
 <br>You'll thank us now that you have crossed over
 <br>Don't pick the scabs or you will never heal
 <br>Oh no, it is, everything they said it was
-<br>Oh no, I am, all the things they said I was
-</div>
+<br>Oh no, I am, all the things they said I was</div>
 <br>
 <audio controls autoplay>
 	  <source src="https://ch-112-sousa.github.io/just-like-a-rolling-stone/assets/when-you-get-to-heaven-you-will-wish-you-re-in-hell.mp3" type="audio/mpeg">
 </audio>
-<br>
-<h5>
-<br>[[Try to resist]]
-<br>[[I'd love to live this lie]]
-</h5>
-}
+<br>}
 
 (set: $showPlayerSheet to 1)
-(set: $objective to "<br>- Avoid the Butterfly Effect")
-(set: $health to 100)
-(set: $ressonance to 0)
-(set: $popularity to 50)
-(set: $inventory to "-")
+(set: $objectives to [- Avoid the Butterfly Effect])
+ 
 
 
 :: Carlos {"position":"575,0","size":"100,100"}
@@ -164,18 +165,18 @@ Therefore, I have focused on the following items:
 
 :: ENTER THE GAME {"position":"375,0","size":"100,100"}
 {Hi!
-<br/>What day is today?
-<br/>I  mean, which year?
-<br/>...?
-<br/>Anyway.
-<br/>Let me tell you something...
-<br/>You are here in memory of [[Carlos]].
-<br/>The crypto-software-engineering, The unknown memory.
-<br/>THe Game Master, The key to unlock the... It Rocks!
-<br/>
-<br/>All you need to know for now is...
-<br/>To pay attention and choose the right songs to unlock his Memories of Rock.
-<br/>But be Warn... first, there's [[some Terms of Rock!]]}
+<br>What day is today?
+<br>I  mean, which year?
+<br>...?
+<br>Anyway.
+<br>Let me tell you something...
+<br>You are here in memory of [[Carlos]].
+<br>The crypto-software-engineering, The unknown memory.
+<br>The Game Master, The key to unlock the... It Rocks!
+<br>
+<br>All you need to know for now is...
+<br>To pay attention and choose the right songs to unlock his Memories of Rock.
+<br>But be Warn... first, there's [[some Terms of Rock!]]}
 
 
 :: Enter The Game {"position":"100,0","size":"100,100"}
@@ -195,15 +196,11 @@ Therefore, I have focused on the following items:
 
 
 
-:: Header [header] {"position":"600,1225","size":"100,100"}
+:: Footer [footer] {"position":"600,1225","size":"100,100"}
 (if: $showPlayerSheet > 0 )[
-Time Traveller
+Traveller Goals
 ---
-<div class="my-div">Objective: $objective
-Health: $health%
-Ressonance: $ressonance
-Popularity: $popularity
-Inventory: $inventory
+<div class="my-div">$objectives
 </div>
 ]
 
@@ -211,10 +208,39 @@ Inventory: $inventory
 
 
 
+:: Give in to live this lie {"position":"950,1450","size":"100,100"}
+{<p>aaaaaa
+<br>aaa
+<br>aaa
+<br>Ok</p>
+<br<h4>Actions</h4>
+---
+<br>I choose metalica, sad but true.
+<br>I will listen to nirvana.
+<br>I will listen to bush.
+<br><br>
+---
+<br>Butterfly Effect
+---
+<div class="div-red">The minute that is born
+<br>It begins to die
+<br>I'd love to just give in
+<br>I'd love to live this lie</div>
+<br>
+<audio controls autoplay>
+	  <source src="https://ch-112-sousa.github.io/just-like-a-rolling-stone/assets/the-minute-that-is-born-it-begins-to-die.mp3" type="audio/mpeg">
+</audio>
+<br>}
+
+(set: $showPlayerSheet to 1)
+(set: $objectives to [- Avoid the Butterfly Effect])
+ 
+
+
 :: I agree {"position":"500,500","size":"100,100"}
 {Ok, I agreed now...
 <br><h2>HIT IT!</h2>
- <br>
+<br>
  <audio controls autoplay>
 	  <source src="https://ch-112-sousa.github.io/just-like-a-rolling-stone/assets/hit-it.mp3" type="audio/mpeg">
 </audio>
@@ -236,10 +262,8 @@ Inventory: $inventory
 
 
 :: I wanna rock with you all night {"position":"175,150","size":"100,100"}
-{
-<h3>Sorry, no fake ID, no Gaming!
-<br/>RIP with Michael Jackson, KING OF POP.
-</h3>
+{<h3>Sorry, no fake ID, no Gaming!
+<br>RIP with Michael Jackson, KING OF POP.</h3>
 <br>
 <audio controls autoplay>
 	  <source src="https://ch-112-sousa.github.io/just-like-a-rolling-stone/assets/i-wanna-rock-with-you-all-night.mp3" type="audio/mpeg">
@@ -248,8 +272,7 @@ Inventory: $inventory
 <br>Try Again!
 <br>
 [[ENTER THE GAME]]
-<br>
-}
+<br>}
 
 
 :: I wanna rock, rock! I want to rock! rock! I want to rock! {"position":"1000,425","size":"100,100"}
@@ -278,31 +301,10 @@ Inventory: $inventory
 <br>}
 
 
-:: I'd love to live this lie {"position":"950,1425","size":"100,100"}
-{
-<div class="div-green">
-        The minute that is born
-<br>It begins to die
-<br>I'd love to just give in
-<br>I'd love to live this lie
-</div>
-<br>
-<audio controls autoplay>
-	  <source src="https://ch-112-sousa.github.io/just-like-a-rolling-stone/assets/the-minute-that-is-born-it-begins-to-die.mp3" type="audio/mpeg">
-</audio>
-}
-(set: $showPlayerSheet to 1)
-(set: $objective to "Avoid the Butterfly Effect")
-(set: $health to 100)
-(set: $ressonance to 0)
-(set: $popularity to 50)
-(set: $inventory to "-")
-
-
 :: I, I've been waiting here to be your guide {"position":"1025,100","size":"100,100"}
-{<h2>I, I've been waiting here to be your guide!
+{<h3>I, I've been waiting here to be your guide!
 <br>So come, reveal the secrets that you keep inside...
-<br>Step up!</h2>
+<br>Step up!</h3>
 <br>
 <audio controls autoplay>
 	  <source src="https://ch-112-sousa.github.io/just-like-a-rolling-stone/assets/i-i-ve-been-waiting-here-to-be-your-guide-so-come-reveal-the-secrets-that-you-keep-inside.mp3" type="audio/mpeg">
@@ -310,12 +312,11 @@ Inventory: $inventory
 <br>[[I want them to know it's me...]]
 <br>[[Take a look into my eyes...]]
 <br>
-<br>
-<h2>Now you are able for <b>[[the regression]]</b>!</h2>
-}
+<br><h3>Now you are able for <b>[[the regression]]</b>!</h3>
+<br>}
 
 
-:: Is it bright where you are? {"position":"850,950","size":"100,100"}
+:: Is it bright where you are? {"position":"825,925","size":"100,100"}
 {<h2><b>The End is The Beginning is The End</b></h2>
 <br><h4>from</h4><h3> Smashing Pumpkings!</h3>
 <br>
@@ -323,19 +324,40 @@ Inventory: $inventory
 <br>You can watch the world devoured in it's pain
 <br>strange!
 <br>strange!
+<br>
 <audio controls autoplay>
 	  <source src="https://ch-112-sousa.github.io/just-like-a-rolling-stone/assets/and-in-your-darkest-hour-i-hold-secrets-flame-you-can-watch-the-world-devoured-in-its-pain-strange-strange.mp3" type="audio/mpeg">
 </audio>
 <br>
-<h3>[[We start from HERE]]<h3>
+<br><h3>[[We start from HERE]]<h3>
+<br>}
+
+
+
+:: Look for something new... {"position":"850,1125","size":"100,100"}
+{<p>Late at night, you searched in your laptop for more information about time travelling.
+<br>Learned about Thomas Anderson, Jason Bourne and Evan Treborn.
+<br>You received a text message...
+<br>But begun to sleep.</p>
+<br><h4>Actions</h4>
+---
+<br>[[Avoid the Butterfly Effect]]!
+<br><br>
+---
+<br>Butterfly Effect
+---
+<div class="div-red">Light a candle for the sinners
+<br>Set the world on fire
+</div>
+<br>
+<audio controls autoplay>
+	  <source src="https://ch-112-sousa.github.io/just-like-a-rolling-stone/assets/light-a-candle-for-the-sinners-set-the-world-on-fire.mp3" type="audio/mpeg">
+</audio>
 <br>}
 
 (set: $showPlayerSheet to 1)
-(set: $objective to "-")
-(set: $health to 100)
-(set: $ressonance to 0)
-(set: $popularity to 50)
-(set: $inventory to "-")
+(set: $objectives to [- Avoid the Butterfly Effect,<br>- Resist the pain])
+
 
 
 :: So, wake up! {"position":"1000,850","size":"100,100"}
@@ -349,12 +371,12 @@ Inventory: $inventory
 <br>Or if you fail to understand, [[you could quit the game]].
 <br>}
 
-(set: $showPlayerSheet to 0)
+
 
 
 :: TERMS {"position":"375,300","size":"100,100"}
 {<h2>The TERMS are:</h2>
-If you are under 18, You won't be doing any time!
+<br>If you are under 18, You won't be doing any time!
 <br>
 <audio controls autoplay>
 	  <source src="https://ch-112-sousa.github.io/just-like-a-rolling-stone/assets/if-you-are-under-18-you-won't-be-doing-any-time.mp3" type="audio/mpeg">
@@ -374,12 +396,33 @@ If you are under 18, You won't be doing any time!
 <audio controls autoplay>
 	  <source src="https://ch-112-sousa.github.io/just-like-a-rolling-stone/assets/take-a-look-into-my-eyes-oh-when-i-look-at-you-take-a-look-into-my-eyes-tell-me-is-it-me-is-it-really-me.mp3" type="audio/mpeg">
 </audio>
+<br>}
+
+
+:: Try to resist {"position":"750,1450","size":"100,100"}
+{<p>You try an efford but it's like a fever...
+<br>Minutes later, you are better.
+<br>You try to relax, and decided to listen to a son...
+<br>which one?</p>
+<br<h4>Actions</h4>
+---
+<br>I choose metalica, sad but true.
+<br>I will listen to nirvana.
+<br>I will listen to bush.
+<br><br>
+---
+<br>Butterfly Effect
+---
+<div class="div-red">Like a fever, fever
+<br>Inside of me</div>
 <br>
-}
-
-
-:: Try to resist {"position":"825,1425","size":"100,100"}
-
+<audio controls autoplay>
+	  <source src="https://ch-112-sousa.github.io/just-like-a-rolling-stone/assets/oh-like-a-fever-fever-inside-of-me.mp3" type="audio/mpeg">
+</audio>
+<br>}
+(set: $showPlayerSheet to 1)
+(set: $objectives to [<del>Avoid the Butterfly Effect</del>])
+ 
 
 
 :: We start from HERE {"position":"600,1025","size":"100,100"}
@@ -387,10 +430,12 @@ If you are under 18, You won't be doing any time!
 <br>Your musical knowledge is inspiring and is always improving
 <br>You learned time travel can be achieved through timeless songs
 <br>As you already realized, the key thing is to sound
-<br>This ressonance connect us.
-<br>[[You looked for something new...]]
-</p>
-<br>
+<br>This ressonance connect us.</p>
+<br><h4>Actions</h4>
+---
+<br>[[Look for something new...]]
+<br><br>
+---
 <div class="div-blue">
 Many times I've been a traveller
 <br>I looked for something new...
@@ -405,40 +450,13 @@ Many times I've been a traveller
 	  <source src="https://ch-112-sousa.github.io/just-like-a-rolling-stone/assets/many-times-i-ve-been-a-traveler.mp3" type="audio/mpeg">
 </audio>
 <br>}
-
-
-
-
-:: You looked for something new... {"position":"850,1125","size":"100,100"}
-{Late at night, you searched in your laptop for more information about time travelling.
-<br>Learned about Thomas Anderson, Jason Bourne and Evan Treborn.
-<br>You received a text message...
-<br>But begun to sleep.
-<br>
-<audio controls autoplay>
-	  <source src="https://ch-112-sousa.github.io/just-like-a-rolling-stone/assets/light-a-candle-for-the-sinners-set-the-world-on-fire.mp3" type="audio/mpeg">
-</audio>
-<br>
-
-Butterfly Effect
----
-<div class="div-red">
-
-        Light a candle for the sinners
-<br>Set the world on fire
-</div>
-<br><h2>[[Avoid the Butterfly Effect]]!</h2>
-}
 (set: $showPlayerSheet to 1)
-(set: $objective to "<br>-Avoid the Butterfly Effect")
-(set: $health to 90)
-(set: $ressonance to 0)
-(set: $popularity to 50)
-(set: $inventory to "-")
+(set: $objectives to [- Avoid the Butterfly Effect,<br>- Resist the pain])
+
 
 
 :: proceed to the game {"position":"675,125","size":"100,100"}
-{<h3>2. Wanna know the truth, son? Oh, I'll tell you the truth...</h3>
+{<h4>2. Wanna know the truth, son? Oh, I'll tell you the truth...</h4>
 <br>
 <h5>
 <br>[[2a. Your soul is gonna burn in a Lake of Fire!]]
@@ -448,16 +466,14 @@ Butterfly Effect
 <br>}
 
 
-:: some Terms of Rock! {"position":"375,150","size":"100,100"}
-{
-Don't you know what you are doing?
+:: some Terms of Rock! {"position":"400,150","size":"100,100"}
+{ Don't you know what you are doing?
 <br>
 <audio controls autoplay>
 	  <source src="https://ch-112-sousa.github.io/just-like-a-rolling-stone/assets/dont-you-know-what-you-are-doing.mp3" type="audio/mpeg">
 </audio>
-<br>
-Sure, show me the [[TERMS]]!
-}
+<br>Sure, show me the [[TERMS]]!
+<br>}
 
 
 :: the regression {"position":"1475,525","size":"100,100"}
@@ -489,9 +505,9 @@ Sure, show me the [[TERMS]]!
 <audio controls autoplay>
      <source src="https://ch-112-sousa.github.io/just-like-a-rolling-stone/assets/too-legit-too-legit-to-quit.mp3" type="audio/mpeg">
 </audio>
-
-<br>GAME IS OVER!
-<br>you quit the game.
+<br>
+<br><h3>GAME IS OVER!</h3>
+<br>player has quit the game.
 }
 
 
@@ -505,7 +521,7 @@ Sure, show me the [[TERMS]]!
 <br>}
 
 
-:: zzzzzz I remember... {"position":"750,825","size":"100,100"}
+:: zzzzzz I remember... {"position":"825,675","size":"100,100"}
 {I remember the first time she came to me
 <br>She poured out her soul all night and cried
 <br>
@@ -562,11 +578,12 @@ Sure, show me the [[TERMS]]!
   border-radius: 8px;  	
 }
 
-
-body
+html, body
 {
   font-size:16px !important;
   line-height: 0.5 !important;
+  margin: 0;
+  padding: 0;
 }
 
 p
