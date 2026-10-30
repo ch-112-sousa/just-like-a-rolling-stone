@@ -1,5 +1,5 @@
 
-#left-content, #right-content, #backlinks {
+#left-content, #right-content, .footer {
     display: none !important;
 }
 #center-content {
