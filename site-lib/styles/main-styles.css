@@ -1,5 +1,5 @@
 
-#left-content, #right-content {
+#left-content, #right-content, #backlinks {
     display: none !important;
 }
 #center-content {
