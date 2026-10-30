@@ -1,5 +1,5 @@
 
-#left-content, #right-content, .footer {
+#left-content, #right-content, .footer, .file-preview.popover.hover-popover {
     display: none !important;
 }
 #center-content {
